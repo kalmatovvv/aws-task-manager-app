@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://task-app-lb-1192487844.us-east-1.elb.amazonaws.com';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://api.shamiltaskmanagerapp.com';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
